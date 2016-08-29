@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/png" href="/Users/xuntingtan/Documents/Summer Region/Nav brand/sr.gif"/>
+  <title>Service</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <style>
+  body {
+      font-family: "Open Sans", Lato, Arial, sans-serif;
+      color: #474747;
+      font-weight: 350;
+      font-size: 17px;
+      letter-spacing: 2px;
+      word-spacing: 1px;
+      line-height: 180%;
+      }
+      
+
+  h1 {
+      font-family:  "Open Sans", Lato, Arial, sans-serif;
+      color: #474747;
+      letter-spacing: 5px;
+      }  
+      
+  h2 {
+      font-family:  "Open Sans", Lato, Arial, sans-serif;
+      color: #474747;
+      letter-spacing: 6px;
+      }
+  h3 {
+      font-family: "Open Sans", Lato, Arial, sans-serif;
+      color: #474747;
+      letter-spacing: 4px;
+      }
+      
+  h4 {
+      font-family: "Open Sans", Lato,  Arial, sans-serif;
+      color: #474747;
+      letter-spacing: 3px;
+      word-spacing: 2px;
+      line-height: 150%;
+      }
+  h5 {
+      font-family: "Open Sans", Lato,  Arial, sans-serif;
+      color: #474747;
+      font-size: 17px;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+      }
+  .big { 
+      line-height: 150%;
+      }
+  
+  .bg-grey {
+      background-color: #FBFBFB;
+  }  
+      
+  .nav-tabs li a {
+      color: white;
+      
+  }
+  .navbar-brand{
+      padding-left: 100px;
+      padding-bottom: 60px;
+      }
+  .navbar {
+      font-family: "Open Sans", Lato, sans-serif;
+      background-color: white !important;
+      font-size: 20px !important;
+      letter-spacing: 3px;
+  }
+    
+    .navbar-right {
+          margin-right: 100px;
+      }       
+      
+  .navbar .nav > li > a {
+      line-height: 50px;
+          
+      }
+  .navbar li a, .navbar .navbar-brand {
+      color: none;
+  }
+  .navbar-nav li a:hover {
+      color: none;
+  }
+  
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: white;
+      background-color: none !important;
+  }
+  .dropdown-menu li a {
+      color: none!important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: lightgray;
+  }
+  footer {
+      background-color: white;
+      color: #474747;
+      padding: 10px;
+  }
+  footer a {
+      color: white;
+  }
+  footer a:hover {
+      color: white;
+      text-decoration: none;
+  }
+  .form-control {
+      border-radius: 0;
+  }
+ 
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #474747;
+  }
+      
+  .logo-small {
+      color: navajowhite;
+      font-size: 40px;
+  }
+  .logo1 {
+      color: crimson;
+      text-align: center;
+      font-size: 150px;
+      padding-right: 0px;
+      padding-top: 80px;
+         }  
+  .logo {
+      text-align: center;
+      color: navajowhite;
+      font-size: 40px;
+  }
+      
+  .margin{
+          margin: auto;
+          width: 55%;
+           }  
+      
+  .margin1{
+          margin: auto;
+          width: 80%;
+      
+      }  
+    .margin2 {
+          margin: auto;
+          width: 60%;
+      }
+      .margin3 {
+          margin: auto;
+          width: 90%;
+      }  
+      .margin4 {
+          margin: auto;
+          width: 80%;
+      }
+      
+      .margin5{
+          margin: auto;
+          width:40%;
+      }
+      
+    .container-fluid1 {
+          position: relative;
+      }  
+         
+    
+      
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+      opacity: 1;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 500%;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+   
+      
+      .box {
+        padding: 50px;  
+       margin-bottom: 50px;
+       background-color: #fbfbfb; 
+       color: #4c4c4c;
+         }
+      
+     .box1 {
+       padding: 50px;     
+       margin-bottom: 50px;
+       background-color: #fbfbfb; 
+       color: #4c4c4c;
+         }
+      
+     .box2 {
+        padding: 50px; 
+        margin-bottom: 50px;   
+        background-color: #fbfbfb; 
+        color: #4c4c4c;
+         }
+      
+     .logo1 {
+      color: #5D5D5D;
+      font-size: 100px;
+      padding-top: 20px;
+         }  
+      
+     .center  {
+          text-align: center;
+      }
+      
+   
+      .button1 {
+    background-color: #C8C8C8;
+    border: none ;
+    color: white;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+      
+     .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.19),0 17px 50px 0 rgba(0,0,0,0.20);
+}
+    
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="overlay" data-target="#myNavbar">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </button>
+        <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+       <a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/About">ABOUT</a>
+       <a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Service">SERVICES</a>
+       <a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Technology">TECHNOLOGY</a>
+       <a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Contact">CONTACT</a>
+    </div>
+  </div>
+        
+      <a class="navbar-brand" href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Homepage">
+      <img src="file:///Users/xuntingtan/Documents/Summer%20Region/Nav%20brand/logo.svg" alt="Summer Region" style="width:200px; height:50px;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" >
+      <div class="nav navbar-nav navbar-right">
+        <li><a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/About">ABOUT</a></li>
+          <li><a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Service">SERVICES</a></li>
+          <li><a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Technology">TECHNOLOGY</a></li> 
+        <li><a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Contact">CONTACT</a></li>
+      </div>
+    </div>
+  </div>
+</nav>
+    
+<div class="vc_empty_space" style="height:10em;"></div>
+    
+    
+<div class="jumbotron text-center margin2" style="background-color:white;" >
+    <h1>What We Offer</h1>
+    <br>
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+  </div>    
+    
+<div class="vc_empty_space" style="height:5em;"></div>    
+    
+    
+<div class="container">
+    <div class="row center">
+        <div class="col-sm-4 ">
+        <div class=" box"> 
+        <span class="glyphicon glyphicon-phone-alt logo1 slideanim"></span>
+        <br><br>
+        <a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/ICT"><button class="button1 button2" style="margin-bottom: 20px;">ICT Consultancy</button></a>
+        </div>
+        </div>
+        
+       <div class="col-sm-4 " >
+        <div class=" box1">
+        <span class="glyphicon glyphicon-signal logo1 slideanim"></span>
+        <br><br>
+        <a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/WIFI"><button class="button1 button2" style="margin-bottom: 20px;">WIFI Hotspot Solution</button></a>
+        </div>
+        </div>
+        
+        <div class="col-sm-4 ">
+        <div class=" box2 ">  
+        <span class="glyphicon glyphicon-edit logo1 slideanim"></span>
+        <br><br>
+        <a href="file:///Users/xuntingtan/Documents/Summer%20Region/webpage's%20code/Software2"><button class="button1 button2" style="margin-bottom: 20px;">Software Development</button></a>
+        </div>
+        </div>    
+        
+        
+    </div>
+    
+</div>    
+    
+<div class="vc_empty_space" style="height:10em;"></div>    
+ 
+    
+<div class="container-fluid text-center margin">
+    <div class="vc_empty_space" style="height:60px;"></div>
+    <p>Contact us to discuss our partnership options! If you’re not sure which program is for you, or if you’re ready to jump on board, we’d love to hear from you!</p>
+    <br>
+    <a href="http://www.google.com/"><button type="button" class="btn btn-danger btn-lg">Contact Us</button></a>
+    </div>    
+    <div class="vc_empty_space" style="height:60px;"></div>
+<hr width="80%">  
+    
+<div class="vc_empty_space" style="height:5em;"></div>      
+    
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+    <div class="row anim text-center" style="font-size:12px;">
+        <div class="col-sm-12">
+        <a style="color:#4c4c4c;" href="">Copyright 2006-2016 &#169; SummerRegion. All right reserved.</a>
+        </div> 
+    </div>
+    <br>
+</footer>
+
+    
+    
+    
+    
+    
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+
+    
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+
+</script>
+</body>
+</html>
